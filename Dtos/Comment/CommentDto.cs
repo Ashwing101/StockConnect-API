@@ -1,15 +1,2 @@
 namespace api.Dtos.Stock
-{
-
-    public class CommentDto
-    { 
-        
-    
-
-
-
-    }
-
-
-
-}
+{    public class CommentDto { } }

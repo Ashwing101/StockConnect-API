@@ -27,7 +27,6 @@ namespace api.Controllers
 
             return Ok(stocks);
 
-
         }
 
         [HttpGet("{id}")]
@@ -79,6 +78,8 @@ namespace api.Controllers
 
         }
 
+        //IActionResult is same as ResponseEntity of Java to return status code
+        
 
         [HttpDelete]
         [Route("{id}")]
@@ -99,7 +100,6 @@ namespace api.Controllers
             return NoContent();
 
         }
-
 
     }
 

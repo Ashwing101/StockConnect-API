@@ -15,6 +15,8 @@ namespace api.Interfaces
 
         Task<Stock?> DeleteAsync(int id);
 
+        Task<bool> StockExist(int id);
+
     }
 
 }

@@ -1,3 +1,4 @@
+using api.Dtos.Comment;
 using api.Models;
 
 namespace api.Interfaces
@@ -9,6 +10,10 @@ namespace api.Interfaces
         Task<List<Comment>> GetAllAsynch();
 
         Task<Comment?> GetByIdAsync(int id);
+
+        Task<Comment?> CreateAsync(Comment commentModel);
+
+        Task<Comment?> updateAsync(int id, Comment updateCommentDto);
 
 
 

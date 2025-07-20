@@ -73,8 +73,6 @@ namespace api.Controllers
         }
 
         //IActionResult is same as ResponseEntity of Java to return status code
-
-
         [HttpDelete]
         [Route("{id}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
